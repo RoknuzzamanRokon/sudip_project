@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # DEBUG = os.environ.get("DEBUG", "False").lower() == 'true'
 DEBUG = True
 
-ALLOWED_HOSTS = ['ursam-roko-app.onrender.com']
+ALLOWED_HOSTS = ['https://ursam-roko-app.onrender.com']
 
 # Application definition
 INSTALLED_APPS = [
