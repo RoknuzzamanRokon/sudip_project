@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 django = "*"
 django-jazzmin = "*"
+dj-database-url = "*"
+psycopg2 = "*"
 
 [dev-packages]
 
