@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     
     'newApp.apps.NewappConfig',
     'ursamApp01.apps.UrsamApp01Config',
+    'messageApp.apps.MessageAppConfig',
     
     'django.contrib.admin',
     'django.contrib.auth',
