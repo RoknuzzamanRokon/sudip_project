@@ -11,7 +11,7 @@ SECRET_KEY = "something"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = os.environ.get("DEBUG", "False").lower() == 'true'
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -19,8 +19,8 @@ ALLOWED_HOSTS = ['*']
 INSTALLED_APPS = [
     'jazzmin',
     'rest_framework',
-    # 'user_api',
-    'base_app',
+    
+    'newApp.apps.NewappConfig'
     
     'django.contrib.admin',
     'django.contrib.auth',
