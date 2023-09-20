@@ -20,7 +20,8 @@ INSTALLED_APPS = [
     'jazzmin',
     'rest_framework',
     
-    'newApp.apps.NewappConfig'
+    'newApp.apps.NewappConfig',
+    'ursamApp01.apps.UrsamApp01Config',
     
     'django.contrib.admin',
     'django.contrib.auth',
