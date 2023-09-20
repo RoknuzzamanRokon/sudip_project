@@ -18,7 +18,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 INSTALLED_APPS = [
     'jazzmin',
-    'rest_framework',
+    # 'rest_framework',
     
     'newApp.apps.NewappConfig',
     'ursamApp01.apps.UrsamApp01Config',
