@@ -7,7 +7,9 @@ from django.conf.urls.static import static
 
 
 urlpatterns = [
-    path('', include('messageApp.urls')),
     path('admin/', admin.site.urls),
+    
+    path('', include('messageApp.urls')),
+    path('', include('blog.urls')),
 ] 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
