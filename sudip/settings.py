@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     
     'newApp.apps.NewappConfig',
     'messageApp.apps.MessageAppConfig',
+    'blog.apps.BlogConfig'
     
     'django.contrib.admin',
     'django.contrib.auth',
