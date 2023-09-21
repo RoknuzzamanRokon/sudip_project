@@ -9,7 +9,7 @@ colorama==0.4.6
 crashtest==0.4.1
 distlib==0.3.7
 dj-database-url==2.1.0
-Django==4.2.5
+Django==3.2.21
 django-jazzmin==2.6.0
 djangorestframework==3.14.0
 dulwich==0.21.6
