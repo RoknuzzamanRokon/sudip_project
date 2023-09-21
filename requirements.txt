@@ -23,7 +23,7 @@ jsonschema==4.17.3
 keyring==24.1.1
 more-itertools==9.1.0
 msgpack==1.0.3
-packaging==22.4
+packaging==23.1
 pexpect==4.8.0
 pkginfo==1.9.6
 platformdirs==3.10.0
