@@ -17,6 +17,7 @@ tzdata = "==2023.3"
 djangorestframework = "*"
 poetry = "*"
 whitenoise = "*"
+pillow = "*"
 
 [dev-packages]
 
