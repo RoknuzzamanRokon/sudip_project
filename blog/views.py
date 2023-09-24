@@ -18,4 +18,3 @@ class BlogCreateView(CreateView):
     model = models.Post
     template_name = 'post_new.html'
     fields = '__all__'
-    
