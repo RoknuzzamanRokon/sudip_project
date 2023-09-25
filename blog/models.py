@@ -18,6 +18,6 @@ class Post(models.Model):
         return self.title
     
     def get_absolute_url(self):
-        return reverse('block_Details_Views', args=[str(self.id)])
+        return reverse('blog_details', args=[str(self.id)])
     
     
