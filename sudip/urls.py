@@ -11,5 +11,6 @@ urlpatterns = [
     
     path('', include('messageApp.urls')),
     path('', include('blog.urls')),
+    path('', include('myCv.urls')),
 ] 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

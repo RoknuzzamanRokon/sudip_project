@@ -1,3 +1,4 @@
+
 from pathlib import Path
 import dj_database_url
 import os
@@ -23,6 +24,7 @@ INSTALLED_APPS = [
     'newApp.apps.NewappConfig',
     'messageApp.apps.MessageAppConfig',
     'blog.apps.BlogConfig',
+    'myCv.apps.MyCvConfig',
     
     'django.contrib.admin',
     'django.contrib.auth',

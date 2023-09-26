@@ -1,0 +1,237 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Roko</title>
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+	<link rel="icon" href="{% static 'image/favicon (2).ico?v=2' %}">
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Niconne&family=Solway&family=Tienne&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body >
+	{% block content %}
+	<div class="header">
+		<div class="header_img">
+			<img src="{% static 'image/black.jpg' %}" alt="background_img">
+			<div class="header_text">
+				<h1>Welcome my web world</h1>
+			</div>
+		</div>	
+	</div>
+
+
+	<div class="profile">
+		<table class="profile_table">
+			<tr>	
+				<th>
+					<div class="profile_some_information">
+						<h2 >Md. Roknuzzaman Rokon</h2>
+						<ul>
+							<li>Cell: +8801739-933258</li>
+							<li>E-mail: rokon.raz@gmail.com</li>
+							<li><a href="https://www.linkedin.com/in/rokon-raz/">LinkedIn: linkedin.com/in/rokon-raz</a></li>
+							<li><a href="https://www.facebook.com/rokon.raz/">Facebook: facebook.com/rokon.raz/</a></li>
+						</ul>
+					</div>				
+				</th>
+				<th  class="profile_img">
+					<div>
+						<img class="profile_img_div" src="{% static 'image/rokon.png' %}" alt="Rokon image" width="200" height="200" align="center">			
+					</div>
+				</th>			
+			</tr>
+		</table>
+	</div>
+
+	<hr>
+
+	<div class="skills">
+
+		<div class="career_object">
+			<img class="career_img" src="{% static 'image/career_history.png' %}" alt="image_for_carrer_object">
+			<div class="career_text">
+				<h2>Career Objective</h2>
+				<p>To obtain a software developer position in a fun, fast-paced, cutting-edge environment that promotes teamwork and integrity and fosters personal and professional development.</p>
+			</div>		
+		</div>
+
+		<div class="work_history">
+				<h2>Work History</h2>
+				<img class="work_img" src="{% static 'image/work_history.png' %}" alt="work_history">					
+				<ol>
+					<li>(2022-2023) Worked for 4 months as HR executive and sir flit executive in the e-commerce company.</li>
+					<li><p>(2018-2022) Along with my studies, <strong>I worked for 5 years in KFC.</strong></p></li>
+					<li><p>(2012-1-2017) I have done many types of jobs. I have worked in such places as world division survey, auto spinning mill, EPZ camera making company, Prince Bazar store assistant, etc.</p></li>
+				</ol>
+		</div>
+
+		
+		<div class="career_object">
+			<img class="career_img" src="{% static 'image/wish.png' %}" alt="image_for_carrer_object">
+			<div class="career_text">
+				<h2>My wish</h2>
+				<p>I want to do something with machine learning.I have an idea of 1 new machine, if this is developed, the money transactions of many businesses will become much easier</p>
+			</div>		
+		</div>
+
+		<div class="work_history">
+			<h2>Learning History and Project</h2>
+			<img class="work_img" src="{% static 'image/learning.png' %}" alt="work_history">					
+			<ol>
+				<li><p>Learning programming languages while I work, C,  HTML, CSS,  JavaScript, MySQL are known little, and then Python. </p></li>
+				<li><p>I can learn many machines with Python, such as coffee machines, digital clocks, snack games, blackjack, and many more. Also, there are more projects of this type like Hangman, High Low, Auction, Ceasercaiper, Guess Number, and Snack Game I know a lot about this type.</p></strong></p></li>
+				<li><p>”Automation of entering the restaurant and POS machine operation Using Face Recognition” This is my thesis paper. I was doing this project at university.</p></li>
+			</ol>
+	</div>
+	</div>
+
+	
+
+	<hr>
+
+	  <div class="skill_section">
+		<h2>My Skill reating</h2>
+		<table>
+			<tr>
+				<td><li>Python</li></td>
+				<td>★★★★★</td>
+			</tr>
+
+			<tr>
+				<td><li>Backend Devloper</li></td>
+				<td>★★★★</td>
+			</tr>
+
+			<tr>
+				<td><li>Python UI Design</li></td>
+				<td>★★★★</td>
+			</tr>
+
+			<tr>
+				<td><li>Python Scripting</li></td>
+				<td>★★★★</td>
+			</tr>
+
+			<tr>
+				<td><li>Python API Devlper</li></td>
+				<td>★★★★★</td>
+			</tr>
+
+			<tr>
+				<td><li>HTML</li></td>
+				<td>★★★★★</td>
+			</tr>
+
+			<tr>
+				<td><li>CSS</li></td>
+				<td>★★★★★</td>
+			</tr>
+
+			<tr>
+				<td><li>JSON</li></td>
+				<td>★★★★</td>
+			</tr>
+
+			<tr>
+				<td><li>MySQL</li></td>
+				<td>★★★★</td>
+			</tr>
+
+			<tr>
+				<td><li>Bootstrap Framwork</li></td>
+				<td>★★★★</td>
+			</tr>
+
+			<tr>
+				<td><li>javascript</li></td>
+				<td>★★★</td>
+			</tr>
+
+			<tr>
+				<td><li>Command line interface</li></td>
+				<td>★★★★★</td>
+			</tr>
+
+		</table>
+	  </div>
+	
+
+	  <hr>
+
+	<div class="btn">
+		<div>
+			<p class="btn_text"><a href="#">CONTACT ME</a></p>
+		</div>
+		
+	</div>
+
+	<hr>
+
+	<div class="image-container">
+		<div class="image">
+		  <img id="image1" src="{% static 'image/image1.png' %}" alt="Image 1">
+		  <h4 class="image-heading">Image 1</h4>
+		  <p class="image-details">This is a description of Image 1.</p>
+		</div>
+
+		
+		<div class="image">
+		  <img src="{% static 'image/image2.png' %}" alt="Image 2">
+		  <h4 class="image-heading">Image 2</h4>
+		  <p class="image-details">This is a description of Image 2.</p>
+		</div>
+		<div class="image">
+		  <img src="{% static 'image/image3.png' %}" alt="Image 3">
+		  <h4 class="image-heading">Image 3</h4>
+		  <p class="image-details">This is a description of Image 3.</p>
+		</div>
+		<div class="image">
+		  <img src="{% static 'image/image4.png' %}" alt="Image 4">
+		  <h4 class="image-heading">Image 4</h4>
+		  <p class="image-details">This is a description of Image 4.</p>
+		</div>
+		<div class="image">
+			<img src="{% static 'image/image5.png' %}" alt="Image 5">
+			<h4 class="image-heading">Image 5</h4>
+			<p class="image-details">This is a description of Image 5.</p>
+		  </div>
+	</div>
+	  
+	<hr>
+
+	<div class="footer">
+		<ul>
+		  <li><a href="#">About</a></li>
+		  <li><a href="#">Contact</a></li>
+		  <li><a href="#">Privacy Policy</a></li>
+		</ul>
+		<p>Copyright &copy; 2023 My Website</p>
+	</div>
+
+
+	{% endblock content %}
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
