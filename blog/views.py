@@ -28,8 +28,4 @@ class BlogUpdateView(UpdateView):
     template_name = 'post_edit.html'
     fields = ['title', 'body']
     
-    # def get_context_data(self, **kwargs):
-    #     context = super().get_context_data(**kwargs)
-    #     context['post'] = get_object_or_404(models.Post, pk=self.kwargs['pk'])
-    #     return context
 
