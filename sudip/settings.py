@@ -63,7 +63,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'sudip.wsgi.application'
+WSGI_APPLICATION = 'sudip.wsgi.application' # This using for deployment.
 
 
 DATABASES = {
@@ -145,4 +145,6 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
     ]
 }
+
+LOGIN_REDIRECT_URL = 'blog_home'
 
